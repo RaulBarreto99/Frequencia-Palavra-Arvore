@@ -16,7 +16,7 @@ import java.util.ArrayList;
 public class testaFreqPalavra {
 
     public static void main(String[] args) {
-        String arquivo = "Doly.txt";
+        String arquivo = "Arquivo.txt";
         String linha = "";
         FreqPalavra freqPalavra = new FreqPalavra();
         String[] palavra = null;
