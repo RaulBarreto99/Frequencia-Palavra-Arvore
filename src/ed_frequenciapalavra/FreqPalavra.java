@@ -60,7 +60,7 @@ public class FreqPalavra {
     public void inOrdem(No p){
         if(p != null){
             inOrdem(p.getEsq());
-            System.out.print(p.getElemento() + " " + p.getContador() + " ");
+            System.out.print(p.getElemento() + " " + p.getContador() + "\n");
             inOrdem(p.getDir());
         }
     }
